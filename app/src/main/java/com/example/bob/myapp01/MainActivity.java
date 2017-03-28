@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
         Textchanged ^= true;
         TextView tv = (TextView)findViewById(R.id.TEXT);
         if(Textchanged)
-            tv.setText("Changed!");
+            tv.setText(getString(R.string.changed));
         else
-            tv.setText("ReChanged!!");
+            tv.setText(getString(R.string.rechanged));
     }
 
     @Override
